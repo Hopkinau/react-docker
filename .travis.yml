@@ -4,3 +4,6 @@ services:
 
 before_install:
   - docker build -t devopshopkin/react-docker -f Dockerfile.dev .
+
+script:
+  - docker run
